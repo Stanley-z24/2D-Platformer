@@ -1,0 +1,22 @@
+# 2D Platformer
+
+2D Platformer project
+
+## Description
+
+Program is inspired maple story in which players are fighting monsters, the objective is to get through all the levels
+
+## Getting Started
+
+
+### Executing program
+
+```
+try { //Plays sword sound effect
+            File audioSword = new File("YOUR SWORD SOUND EFFECT HERE");
+            swordAudio = AudioSystem.getAudioInputStream(audioSword);
+            sword = AudioSystem.getClip();
+            sword.open(swordAudio);
+        } catch (Exception ex){} 
+```
+* Code has many audio files and image files you'll need to add your own images/audios to.
